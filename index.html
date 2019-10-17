@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+		<title> My Site </title>
+		<link rel="stylesheet" href="css/dragdrop.css">
+		<script src="script/dragdrop.js"> </script>
+	</head>
+	
+	<body>
+		<h2>Drag and Drop Exercise</h2>
+		
+		<div id="div1" ondrop="dropImage(event)" ondragover="allowDrop(event)">
+			<img src="img/pusheen.png" height="200px" width="400px" 
+				id="drag1" draggable="true" ondragstart="dragImage(event)">
+		</div>
+
+		<div id="div2" ondrop="dropImage(event)" ondragover="allowDrop(event)">
+		</div>
+
+	</body>
+	
+</html>
